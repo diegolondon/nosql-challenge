@@ -29,34 +29,9 @@ The magazine editors have some requested modifications for the database before y
 
 An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
 
-{
-    "BusinessName":"Penang Flavours",
-    "BusinessType":"Restaurant/Cafe/Canteen",
-    "BusinessTypeID":"",
-    "AddressLine1":"Penang Flavours",
-    "AddressLine2":"146A Plumstead Rd",
-    "AddressLine3":"London",
-    "AddressLine4":"",
-    "PostCode":"SE18 7DY",
-    "Phone":"",
-    "LocalAuthorityCode":"511",
-    "LocalAuthorityName":"Greenwich",
-    "LocalAuthorityWebSite":"http://www.royalgreenwich.gov.uk",
-    "LocalAuthorityEmailAddress":"health@royalgreenwich.gov.uk",
-    "scores":{
-        "Hygiene":"",
-        "Structural":"",
-        "ConfidenceInManagement":""
-    },
-    "SchemeType":"FHRS",
-    "geocode":{
-        "longitude":"0.08384000",
-        "latitude":"51.49014200"
-    },
-    "RightToReply":"",
-    "Distance":4623.9723280747176,
-    "NewRatingPending":True
-}
+![image](https://user-images.githubusercontent.com/122496169/234977768-70112b76-4cae-451d-9a96-5e2bbb79969b.png)
+
+
 Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
 
 Update the new restaurant with the BusinessTypeID you found.
